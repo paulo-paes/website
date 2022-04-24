@@ -1,0 +1,62 @@
+.body{
+    /*background-color: #00b4d8;*/
+    background-image: linear-gradient(to right,#48cae4, #0077b6);
+/*    #0096c7 */
+    color: white
+}
+
+
+.header {
+    width: 100%;
+    
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+}
+
+.header-name{
+    font-family: 'Ms Madi', cursive;
+    font-weight: 800;
+    font-size: 3em;
+}
+
+.header-social {
+    list-style: none;
+    width: 8em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-social-item {
+    width: 2.5em;
+    text-align: center;
+    transition: all 0.4s;
+}
+
+.header-social-item img {
+    width: 50px;
+    color: white;
+}
+
+.header-social-item:hover {
+    transform: scale(110%);
+}
+
+.principal {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.texto {
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em
+}
