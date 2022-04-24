@@ -1,14 +1,19 @@
+html {
+    height: 100%;
+}
+
+.main {
+    height: calc(100% - 99px);
+}
 .body{
-    /*background-color: #00b4d8;*/
-    background-image: linear-gradient(to right,#48cae4, #0077b6);
-/*    #0096c7 */
-    color: white
+    color: white;
+    margin: 0;
+    height: 100%;
 }
 
 
 .header {
     width: 100%;
-    
 }
 
 .header-nav {
@@ -19,9 +24,9 @@
 }
 
 .header-name{
-    font-family: 'Ms Madi', cursive;
+    font-family: 'Roboto Mono', monospace;
     font-weight: 800;
-    font-size: 3em;
+    font-size: 30px;
 }
 
 .header-social {
@@ -41,7 +46,7 @@
 
 .header-social-item img {
     width: 50px;
-    color: white;
+    filter: invert(100%);
 }
 
 .header-social-item:hover {
@@ -53,10 +58,14 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    height: 100%;
 }
 
 .texto {
-
     font-family: 'Roboto Mono', monospace;
     font-size: 1.5em
+}
+
+.background {
+    background-image: linear-gradient(to right,#48cae4, #0077b6);
 }
