@@ -69,3 +69,15 @@ html {
 .background {
     background-image: linear-gradient(to right,#48cae4, #0077b6);
 }
+
+.image img {
+    width: 780px;
+    height: 580px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    50% {
+        transform: translate(15px, 0);
+     }
+}
